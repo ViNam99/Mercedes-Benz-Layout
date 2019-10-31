@@ -1,0 +1,35 @@
+.header {
+    font-weight: $fw-0;
+    .header__content {
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                margin: $mg-0 $mg-1;
+                a {
+                    text-decoration: none;
+                    @include styleText($color-inherit, $fs-1, $fw-0);
+                    &:hover {
+                        @include styleHover(none, $color-blue-1, $color-blue-1);
+                        i {
+                            border: $bd-0 solid $color-blue-1;
+                        }
+                    }
+                }
+                &:nth-child(1) {
+                    i {
+                        border: $bd-0 solid $color-white-0;
+                        width: 20px;
+                        height: 20px;
+                        line-height: $lh-2 - 4;
+                        text-align: center;
+                        font-size: $fs-0;
+                    }
+                }
+                &:nth-child(3) {
+                    margin-left: 35px;
+                }
+            }
+        }
+    }
+}

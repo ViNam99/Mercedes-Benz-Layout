@@ -1,0 +1,11 @@
+@mixin styleText($color, $fs, $fw) {
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+}
+
+@mixin styleHover($bg-color, $border-color, $color) {
+    background-color: $bg-color;
+    border-color: $border-color;
+    color: $color;
+}
