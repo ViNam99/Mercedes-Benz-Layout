@@ -38,4 +38,28 @@ body {
       .header .header__content ul li:nth-child(3) {
         margin-left: 35px; }
 
+.nav .nav__content {
+  width: 96%;
+  margin: 0 auto; }
+  .nav .nav__content .navbar .navbar-brand {
+    position: relative; }
+    .nav .nav__content .navbar .navbar-brand img:nth-child(1) {
+      position: absolute;
+      top: -40px;
+      left: 0; }
+    .nav .nav__content .navbar .navbar-brand img:nth-child(2) {
+      position: absolute;
+      top: -10px;
+      left: 125px; }
+  .nav .nav__content .navbar ul li {
+    margin: 0 18px; }
+    .nav .nav__content .navbar ul li a {
+      color: #fff;
+      font-size: 16px;
+      font-weight: normal; }
+      .nav .nav__content .navbar ul li a:hover {
+        background-color: none;
+        border-color: none;
+        color: #00adef; }
+
 /*# sourceMappingURL=main.css.map */

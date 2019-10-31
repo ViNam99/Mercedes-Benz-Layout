@@ -1,0 +1,32 @@
+.nav {
+    .nav__content {
+        width: 96%;
+        margin: 0 auto;
+        .navbar {
+            .navbar-brand {
+                position: relative;
+                img:nth-child(1) {
+                    position: absolute;
+                    top: -40px;
+                    left: 0;
+                }
+                img:nth-child(2) {
+                    position: absolute;
+                    top: -10px;
+                    left: 125px;
+                }
+            }
+            ul {
+                li {
+                    margin: 0 18px;
+                    a {
+                        @include styleText($color-white-0, $fs-1, $fw-0);
+                        &:hover {
+                            @include styleHover(none, none, $color-blue-1)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
