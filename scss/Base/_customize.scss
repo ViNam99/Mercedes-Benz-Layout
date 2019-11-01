@@ -1,0 +1,19 @@
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    z-index: 3;
+    span {
+        @include styleText($color-white-0, 90px, $fw-0);
+        line-height: 0.6;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.owl-next {
+    left: unset;
+    right: 2%;
+}

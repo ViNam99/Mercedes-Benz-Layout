@@ -6,6 +6,12 @@
 
 @mixin styleHover($bg-color, $border-color, $color) {
     background-color: $bg-color;
-    border-color: $border-color;
+    border: $bd-0 solid $border-color;
     color: $color;
+}
+
+@mixin styleButton($bg-color, $border-color, $pd-top-bottom, $pd-left-right) {
+    background-color: $bg-color;
+    border: $bd-0 solid $border-color;
+    padding: $pd-top-bottom $pd-left-right;
 }

@@ -1,0 +1,9 @@
+.btn__dark {
+    @include styleText($color-white-1, $fs-1, $fw-0);
+    @include styleButton($color-gray-3, $color-gray-3, 7px, 20px);
+    border-radius: 0;
+    &:hover {
+        @include styleHover($color-gray-5, $color-gray-5, $color-white-2);
+        transition: all 0.5s;
+    }
+}

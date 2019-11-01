@@ -8,6 +8,11 @@
     <title>Mercedes-Benz international</title>
     <!-- Fonts awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="./scss/Vendors/owlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./scss/Vendors/owlCarousel/owl.theme.default.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Main Css -->
@@ -80,13 +85,106 @@
         </div>
     </nav>
 
+    <section class="carousel container-fluid">
+        <div class="carousel__content owl-carousel owl-theme">
+            <div class="item ">
+                <img src="./img/01-mercedes-benz-vision-eqs-show-car-mercedes-benz-eq-3400x1440.jpeg" alt="">
+                <div class=" carousel__paragarph" data-aos="fade-down">
+                    <h2>The VISION EQS</h2>
+                    <button type="button" class="btn btn__dark">Learn more</button>
+                </div>
+            </div>
+            <div class="item ">
+                <img src="./img/02_neu_mercedes-benz-eqc-felix-Header-3400x1440.jpeg" alt="">
+                <div class=" carousel__paragarph" data-aos="fade-down">
+                    <h2> Enjoy Electric: Star DJ Felix Jaehn and the EQC Edition 1886. </h2>
+                    <button type="button" class="btn btn__dark">Learn more</button>
+                </div>
+            </div>
+            <div class="item ">
+                <img src="./img/03-shes-mercedes-babou-olengha-aaby-committed-to-discovery-3400x1440.jpeg" alt="">
+                <div class=" carousel__paragarph" data-aos="fade-down">
+                    <h2> Committed to discovery. </h2>
+                    <button type="button" class="btn btn__dark">Learn more</button>
+                </div>
+            </div>
+            <div class="item ">
+                <img src="./img/04-mercedes-benz-gle-coupe-2020-c167-3400x1440.jpeg" alt="">
+                <div class=" carousel__paragarph" data-aos="fade-down">
+                    <h2> The new GLE Coupé. </h2>
+                    <button type="button" class="btn btn__dark">Learn more</button>
+                </div>
+            </div>
+            <div class="item ">
+                <img src="./img/05-mercedes-benz-vehicles-eqv-2020-447-3400x1440.jpeg" alt="">
+                <div class=" carousel__paragarph" data-aos="fade-down">
+                    <h2>The new EQV. </h2>
+                    <button type="button" class="btn btn__dark">Learn more</button>
+                </div>
+            </div>
+            <div class="item ">
+                <img src="./img/06-mercedes-benz-glb-2020-x247-galaxy-blue-3400x1440.jpeg" alt="">
+                <div class=" carousel__paragarph" data-aos="fade-down">
+                    <h2> The new GLB: All kinds of strength. </h2>
+                    <button type="button" class="btn btn__dark">Learn more</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
     </script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out-sine',
+
+        })
+    </script>
+    <!-- Owl carousel -->
+    <script src="./scss/Vendors/owlCarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            responsiveClass: true,
+            autoplay: false,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    dots: false
+                },
+                600: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    dots: false
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    dots: false
+
+                }
+            }
+
+        })
+    </script>
+
 
     <!-- Bootstrap 4 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
