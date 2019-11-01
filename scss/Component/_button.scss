@@ -7,3 +7,13 @@
         transition: all 0.5s;
     }
 }
+
+.btn-blue {
+    @include styleText($color-white-1, $fs-1, $fw-0);
+    @include styleButton($color-blue-1, $color-blue-1, 5px, 12px);
+    border-radius: 1px;
+    &:hover {
+        @include styleHover(#0088c6, #0088c6, $color-white-1);
+        transition: all 0.5s;
+    }
+}

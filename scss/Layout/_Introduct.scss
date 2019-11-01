@@ -1,0 +1,56 @@
+.introduction {
+    padding: $pd-4 0;
+    .introduction__content {
+        width: 80%;
+        margin: 0 auto;
+        .introduction__top {
+            padding: $pd-4 0;
+            h2 {
+                margin-bottom: $mg-2;
+                &::before {
+                    content: '';
+                    display: block;
+                    height: 3px;
+                    width: 60px;
+                    background: $color-white-0;
+                    margin-bottom: $mg-3;
+                }
+            }
+            p {
+                @include styleText($color-white-0, $fs-0, $fw-1);
+            }
+            .btn-blue {
+                margin-top: $mg-2;
+            }
+        }
+        .introduction__bottom {
+            padding: $pd-4 0;
+            a {
+                width: 100%;
+                height: 100%;
+                display: block;
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                &::after {
+                    content: '';
+                    display: block;
+                    background-color: $color-blue-1;
+                    width: 100%;
+                    height: 0;
+                    opacity: 0;
+                    transition: all 0.5s;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+                &:hover::after {
+                    opacity: 1;
+                    height: 7px;
+                }
+            }
+        }
+    }
+}
