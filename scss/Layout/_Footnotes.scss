@@ -1,0 +1,11 @@
+.footnotes {
+    @include styleText($color-white-0, $fs-0, $fw-0);
+    padding: $pd-4 0;
+    .footnotes__content {
+        width: 95%;
+        margin: 0 auto;
+        .footnotes__top {
+            padding: $pd-2 0;
+        }
+    }
+}

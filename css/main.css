@@ -249,4 +249,15 @@ body {
     position: absolute;
     left: 45%; }
 
+.footnotes {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 60px 0; }
+  .footnotes .footnotes__content {
+    width: 95%;
+    margin: 0 auto; }
+    .footnotes .footnotes__content .footnotes__top {
+      padding: 30px 0; }
+
 /*# sourceMappingURL=main.css.map */
