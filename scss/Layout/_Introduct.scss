@@ -10,10 +10,7 @@
                 &::before {
                     content: '';
                     display: block;
-                    height: 3px;
-                    width: 60px;
-                    background: $color-white-0;
-                    margin-bottom: $mg-3;
+                    @include styleBefore ($w-0, $h-0, $mg-3, $color-white-0)
                 }
             }
             p {
