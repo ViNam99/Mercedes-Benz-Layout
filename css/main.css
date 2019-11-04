@@ -258,4 +258,92 @@ body {
     .footnotes .footnotes__content .footnotes__top {
       padding: 30px 0; }
 
+.seo {
+  padding: 60px 0; }
+  .seo .seo__content {
+    width: 95%;
+    margin: 0 auto; }
+    .seo .seo__content h2::before {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      margin-bottom: 28px;
+      background-color: #fff; }
+    .seo .seo__content hr {
+      border: 0;
+      height: 1px;
+      margin: 30px -1px;
+      background: #333;
+      position: relative; }
+      .seo .seo__content hr::before {
+        background: #333;
+        content: "";
+        display: block;
+        height: 1px;
+        left: -30px;
+        position: absolute;
+        right: -30px; }
+    .seo .seo__content .seo__item ul li {
+      list-style: none; }
+      .seo .seo__content .seo__item ul li a {
+        text-decoration: none;
+        color: #999999;
+        font-size: 14px;
+        font-weight: normal;
+        transition: all 0.5s; }
+        .seo .seo__content .seo__item ul li a:hover {
+          background-color: none;
+          border: 1px solid none;
+          color: #00adef; }
+    .seo .seo__content .seo__bottom {
+      color: #999999;
+      font-size: 14px;
+      font-weight: normal; }
+      .seo .seo__content .seo__bottom .seo__bot__left .input-group input {
+        background-color: #202020;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        max-width: 66%;
+        color: #fff;
+        font-size: 18px;
+        font-weight: normal; }
+      .seo .seo__content .seo__bottom .seo__bot__left .input-group .input-group-append .btn__dark__2 {
+        background: linear-gradient(#242424, #0b0b0b);
+        border-bottom-color: #0b0b0b;
+        border-left-color: #2a2a2a;
+        border-radius: 0;
+        border-right-color: #0b0b0b;
+        border-style: solid;
+        border-top-color: #242424;
+        color: #999999;
+        font-size: 12px;
+        font-weight: normal; }
+        .seo .seo__content .seo__bottom .seo__bot__left .input-group .input-group-append .btn__dark__2:hover {
+          background-color: unset;
+          border: 1px solid unset;
+          color: #00adef !important; }
+      .seo .seo__content .seo__bottom .seo__bot__left .form-check label {
+        cursor: pointer; }
+        .seo .seo__content .seo__bottom .seo__bot__left .form-check label a {
+          text-decoration: none;
+          color: #999999;
+          font-size: 14px;
+          font-weight: normal; }
+          .seo .seo__content .seo__bottom .seo__bot__left .form-check label a:hover {
+            background-color: unset;
+            border: 1px solid unset;
+            color: #00adef !important; }
+      .seo .seo__content .seo__bottom .seo__bot__right ul {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr); }
+        .seo .seo__content .seo__bottom .seo__bot__right ul li {
+          list-style: none; }
+          .seo .seo__content .seo__bottom .seo__bot__right ul li a {
+            text-decoration: none;
+            color: #999999;
+            font-size: 20px;
+            font-weight: normal; }
+
 /*# sourceMappingURL=main.css.map */
