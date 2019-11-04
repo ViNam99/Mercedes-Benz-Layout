@@ -346,4 +346,16 @@ body {
             font-size: 20px;
             font-weight: normal; }
 
+.trusted .trusted__content {
+  width: 95%;
+  margin: 0 auto; }
+  .trusted .trusted__content .trusted__item a {
+    display: flex;
+    justify-content: center; }
+    .trusted .trusted__content .trusted__item a img {
+      width: 35%;
+      height: 100%;
+      display: block;
+      padding-right: 0 !important; }
+
 /*# sourceMappingURL=main.css.map */
