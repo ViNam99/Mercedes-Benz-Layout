@@ -358,4 +358,26 @@ body {
       display: block;
       padding-right: 0 !important; }
 
+.footer {
+  margin-top: 60px; }
+  .footer a {
+    text-decoration: none;
+    background: transparent;
+    color: #999999;
+    font-size: 12px;
+    font-weight: normal; }
+    .footer a:hover {
+      background-color: unset;
+      border: 1px solid unset;
+      color: #00adef !important; }
+  .footer .footer__content {
+    width: 95%;
+    margin: 0 auto; }
+    .footer .footer__content .footer__list ul {
+      display: flex;
+      justify-content: flex-start; }
+      .footer .footer__content .footer__list ul li {
+        list-style: none;
+        padding: 0 10px; }
+
 /*# sourceMappingURL=main.css.map */

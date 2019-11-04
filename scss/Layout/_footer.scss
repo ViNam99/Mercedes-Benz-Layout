@@ -1,0 +1,25 @@
+.footer {
+    margin-top: 60px;
+    a {
+        text-decoration: none;
+        background: transparent;
+        @include styleText($color-gray-1, $fs-0 - 2, $fw-0);
+        &:hover {
+            @include styleHover(unset, unset, $color-blue-1 !important);
+        }
+    }
+    .footer__content {
+        width: 95%;
+        margin: 0 auto;
+        .footer__list {
+            ul {
+                display: flex;
+                justify-content: flex-start;
+                li {
+                    list-style: none;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}
